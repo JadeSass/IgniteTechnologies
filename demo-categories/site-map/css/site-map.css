@@ -1,0 +1,56 @@
+/*
+
+Template:  Webster - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This file contains the styling for the Mobile app Template. You can edit/add anything in this file!
+
+*/
+ 
+h1, h2, h3, h4, h5, h6 { font-family: 'Noto Sans', sans-serif; font-weight: normal; color: #363636; margin-top: 0px; text-transform: capitalize; font-weight: bold; }
+
+.app-home { padding-bottom: 600px; background-position: 100px 100px; background-repeat: no-repeat; }
+ 
+.mobile-app-about h2 {font-size: 70px; margin-bottom: 30px;}
+.mobile-app-about strong { font-size: 24px; margin-bottom: 40px; display: block; }
+.mobile-app-about a img { width: 240px; margin: 0 2px; }
+
+/*mobile app blog*/
+.blog-box.blog-2 {padding: 0; position: relative; border:none; transition: all 0.5s ease 0s;}
+.blog-box.blog-2 .blog-info{background: #ffffff; padding: 10px;}
+.blog-box.blog-2 .blog-box-img{opacity: 1;}
+.blog-box.blog-2 .post-format-icon{position: absolute; right: 30px; top: 30px;}
+.blog-box.blog-2 .button.icon-color{text-transform: capitalize; float: right;}
+.blog-box.blog-2:hover {box-shadow: 0 0 30px rgba(0, 0, 0, 0.07); }
+
+
+/*************************************
+          Mobile slider
+**************************************/
+.mobile-slider { padding-left: 15px; padding-right: 15px; }
+.mobile-slider .row{z-index: 2; position: relative; min-height: 1px; padding-right: 15px; padding-left: 15px; width: 31.777777%; margin-right: -15px; margin-left: -15px;}
+.mobile-slider ul {list-style: none;  z-index: 2;}
+.highlight h3 {position: relative; margin-top: 10px; display: block;  font-size: 18px;  }
+.highlight.active h3 { color: #84ba3f; }
+.highlight-title span { position: relative; z-index: 1; font-size: 28px; color: #84ba3f; }
+.highlight { cursor: pointer; margin: 40px 0px;} 
+li:last-child.highlight { margin-bottom: 0px; }
+.highlights-phone{ width: 100%;height: 640px; float: left;}
+.phone-holder{  display: block; height: 640px; position: relative;  top: 0px; left: 0; width: 306px; margin: auto; overflow: hidden}
+#fon{position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2; overflow: hidden;}
+.highlights-phone.wht .phone-holder #fon{background: url(../images/mobile-bg.png) center top no-repeat; background-position-x: 0;  }
+.hgi{position: absolute; top: 58px; left: 0; width: 100%; height: 510px; visibility: hidden;}
+.hgi img{width: 100%;height: 100%; padding: 0 8px; }
+.highlights-phone.wht .hgi { top: 63px; }
+.hgi.active { visibility: visible; }
+.right-row { padding-right: 0; float: right; }
+.left-row { float: left; margin-right: 0; }
+.left-row .highlight-title { text-align: right; }
+.right-row .highlight-title { text-align: left; }
+
+
+.bg-overlay-theme-20:before {  background: rgba(0, 121, 252, 0.2); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+.bg-overlay-theme-50:before {  background: rgba(0, 121, 252, 0.5); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+.bg-overlay-theme-70:before {  background: rgba(0, 121, 252, 0.7); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+.bg-overlay-theme-90:before {  background: rgba(0, 121, 252, 0.9); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
